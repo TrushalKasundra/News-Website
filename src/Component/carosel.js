@@ -18,7 +18,7 @@ function Carosel(){
       <img src={require("./Images/bbc news 1.jpg")} className="d-block w-100" alt="bbcNews1"/>
       <div className="carousel-caption caption">
               <h3 style={{color: "darkblue"}}>
-                India government criticises BBC's Modi documentary
+                India government criticises BBC's PM Modi 's documentary
               </h3>
             </div>
     </div>
