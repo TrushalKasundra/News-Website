@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import Politics from './Component/politics';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test("see if disired text exist",()=>{
+  render(<Politics/>);
+  const text = screen.getByText(/Boyegas gave an/i);
+  expect(text).toBeInTheDocument();
+})

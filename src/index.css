@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shareIcons{
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+}

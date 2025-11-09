@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "./Images/Logo.jpg";
 
 function Navbar() {
   // const buttn=()=>{
@@ -12,7 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <img src={require("./Images/Logo.jpg")} alt="logo" height="50px" />
+          <img src={Logo} alt="logo" height="50px" />
           <button
             className="navbar-toggler"
             type="button"

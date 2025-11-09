@@ -1,4 +1,9 @@
 import React from "react";
+import cardImage1 from "./Images/cardimage1.jpg";
+import cardImage2 from "./Images/cardimage2.jpg";
+import cardImage3 from "./Images/cardimage3.jpg";
+import cardImage4 from "./Images/cardimage4.jpg"; 
+
 function News(){
 
     return (
@@ -14,7 +19,7 @@ function News(){
           <div className="card mt-2" style={{width: "100%"}}>
             <div className="card-body">
               <img
-                src={require("./Images/cardimage2.jpg")}
+                src={cardImage2}
                 height="100%"
                 width="100%"
                 alt="news1"
@@ -32,7 +37,7 @@ function News(){
           <div className="card mt-2" style={{width: "100%"}}>
             <div className="card-body">
               <img
-                src={require("./Images/cardimage1.jpg")}
+                src={cardImage1}
                 height="100%"
                 width="100%"
                 alt="news1"
@@ -50,7 +55,7 @@ function News(){
           <div className="card mt-2" style={{width: "100%"}}>
             <div className="card-body">
               <img
-                src={require("./Images/cardimage3.jpg")}
+                src={cardImage3}
                 height="100%"
                 width="100%"
                 alt="news1"
@@ -66,7 +71,7 @@ function News(){
           <div className="card mt-2" style={{width:"100%"}}>
             <div className="card-body">
               <img
-                src={require("./Images/cardimage4.jpg")}
+                src={cardImage4}
                 height="100%"
                 width="100%"
                 alt="news1"

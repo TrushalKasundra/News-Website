@@ -1,4 +1,8 @@
 import React from "react";
+import BBC1 from "./Images/bbc news 1.jpg";
+import BBC2 from "./Images/bbc news 2.jpg";
+import BBC3 from "./Images/bbc news 3.jpg";
+import BBC4 from "./Images/bbc news 4.jpg"; 
 
 function Carosel(){
     return(
@@ -15,7 +19,7 @@ function Carosel(){
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={require("./Images/bbc news 1.jpg")} className="d-block w-100" alt="bbcNews1"/>
+      <img src={BBC1} className="d-block w-100" alt="bbcNews1"/>
       <div className="carousel-caption caption">
               <h3 style={{color: "darkblue"}}>
                 India government criticises BBC's PM Modi 's documentary
@@ -23,7 +27,7 @@ function Carosel(){
             </div>
     </div>
     <div className="carousel-item">
-      <img src={require("./Images/bbc news 2.jpg")} className="d-block w-100" alt="bbcNews2"/>
+      <img src={BBC2} className="d-block w-100" alt="bbcNews2"/>
       <div className="carousel-caption caption">
               <h3 style={{color: "aliceblue"}}>
                 Estimates show India's population may've already overtaken
@@ -32,7 +36,7 @@ function Carosel(){
             </div>
     </div>
     <div className="carousel-item">
-      <img src={require("./Images/bbc news 3.jpg")} className="d-block w-100" alt="bbcNews3"/>
+      <img src={BBC3} className="d-block w-100" alt="bbcNews3"/>
       <div className="carousel-caption caption">
               <h3 style={{color: "white"}}>
                 Tax relief and spending boost in India budget
@@ -40,7 +44,7 @@ function Carosel(){
             </div>
     </div>
     <div className="carousel-item">
-      <img src={require("./Images/bbc news 4.jpg")} className="d-block w-100" alt="bbcNews4"/>
+      <img src={BBC4} className="d-block w-100" alt="bbcNews4"/>
       <div className="carousel-caption caption">
               <h3 style={{color: "antiquewhite"}}>
                 Shubman Gill becomes India's highest individual scorer in T20Is

@@ -1,16 +1,16 @@
 import React from "react"
-// import { Link } from "react-router-dom";
+import videoSample from "./videosample.mp4"
 
 function Politics(){
     return(
       <>
       <div className="bg-info">
-<div className="container ">
+        <div className="container ">
         <div className="row pt-2"><h3 style={{borderLeft: "2px solid"}}>&nbsp;Newyork News</h3></div>
               <div className="row">
                 <div className="col-md-6">
               <video loop muted controls width='100%' height='100%'>
-                <source src={require("./videosample.mp4")} type="video/mp4"/>
+                <source src={videoSample} type="video/mp4"/>
               </video>
             </div>  
             <div className="col-md-6 py-5 bg-success" style={{borderRadius:"15%"}} >
